@@ -1,0 +1,8 @@
+import pandes as pd 
+pizza = {'Nama':['udin','tomi','dejan','jerry','daswa','rudi','sandi','valdi','wahid','zaka'],
+'tinggi badan':[180,171,168,167,190,177,155,156,178,188],
+'berat badan':[56,60,77,90,55,50,66,52,45,57]
+}
+pizza_df = pd.Dataframe(pizza)
+pizza_df
+print(pizza_df)
